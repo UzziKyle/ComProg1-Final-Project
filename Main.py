@@ -130,7 +130,6 @@ def dboundto1(p):
         if yn == 1:
             callprice(p,d)
 
-
         elif yn == 0:
             print("\nOkay. Let me know your dropping point again.")
             dboundto1(p)
@@ -146,7 +145,7 @@ def dboundto1(p):
 def topak(n):
             n = n
             print("\nHilo ka ba?")
-            print("Ang linaw linaw na\n0 at 1 lang ang option\n",n," ang inenter mo.")
+            print("Ang linaw linaw na\n0 at 1 lang ang option,\n",n," ang inenter mo.")
             print("Sana okay ka lang.")
             print("Naiintindihan kita.")
             print("Bye!\n")
@@ -169,7 +168,7 @@ def callprice(p,d):
                 Fareprice.discfareprice(p,d)
 
             else:
-                topak()
+                topak(status)
 
 
 
