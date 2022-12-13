@@ -168,6 +168,9 @@ def callprice(p,d):
             elif status == 1:
                 Fareprice.discfareprice(p,d)
 
+            else:
+                topak()
+
 
 
 
